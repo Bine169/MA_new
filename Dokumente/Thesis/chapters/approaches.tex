@@ -1,0 +1,46 @@
+\section{Selecting approaches for implementation}
+
+\subsection{Overview about existing approaches}\label{Overview about existing approaches}
+
+\subsection{Selection of approaches}
+
+split als location-allocation model like in bericht71 und gebieteoptimalaufteilen(?) fliegt, da für viele Einheiten zu komplex
+
+Compared to the location-allocation approach the set-partitioning methods own the advantage of more flexibility to achieve a satisfying result of the territory alignment. At the same time this advantage is a disadvantage too because to achieve the huge flexibility a raising combinatoric complexity is needed. Consequently the approach 
+--> somit fliegt set partitioning auch
+
+--> heuristische verfahren notwendig
+
+
+A completely different allocation approach is to sequentially assign basic areas to territory
+centers based on distance, i.e. a basic area will be allocated to closest territory center. This
+minimal distance allocation yields disjoint, compact and often connected, however, usually
+not well balanced territories as the balance criterion is completely neglected when deciding
+about the allocation. The attractiveness of this method, denoted as AllocMinDist, primarily
+lies in its simplicity and computational speed. See Kalcsics et al. [KMNG02].
+
+\section{Implementation of area segmentation approaches}\label{Implementation}
+
+einleitung: welche daten, plz gebiete (bild welche eigenschafte, wie repräsentiert), hinterlegt mit einem attribut, nicht mehr attribute, warum wahl des testdatensatzes...
+\subsection{Segmentations considering homogenous distribution}
+
+\paragraph{Considering just Criteria}
+
+\paragraph{Considering average criteria value in proportion to number of locations}
+
+\subsection{Segmentations considering distance}
+
+\paragraph{Considering just Distance}
+
+\subsection{Segmentations considering criteria and distance}
+
+\paragraph{Criteria and Distance: from inside to outside: SmallestCritGetsNearest}
+
+\paragraph{Criteria and Distance: from inside to outside: SmallestCritGetsTrueNearest}
+
+\paragraph{Criteria and Distance: from outside to inside + inside to outside}
+
+\paragraph{sum of criteria divided by number locations + Distance}
+
+\paragraph{Distance + criteria}
+

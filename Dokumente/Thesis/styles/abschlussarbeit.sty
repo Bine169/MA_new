@@ -1,0 +1,260 @@
+% ===================================
+% Einbindung von Erweiterungspaketen
+% ===================================
+
+\usepackage[latin1]{inputenc}%		Kodierung des Eingabezeichensatzes fuer das Dokument - 'latin1' (ISO-8859-1)
+\usepackage[ngerman, english]{babel}%			Verwendung der neuen deutschen Rechtschreibung mit 'ngerman'
+													 %			'babel' kann Optionen fuer mehrere Sprachen zugleich enthalten
+													 %			\selectlanguage{sprache} wechselt zw. verschiedenen Sprachen										Paket legt das Aussehen der Anfuehrungszeichen fest; Kommando \enquote{} setzt den Text zw. Klammern in 
+
+% --- Paket zur Festsetzung des Raumes zwischen den Zeilen
+\usepackage{setspace}
+\onehalfspacing%	1.5facher Zeilenabstand abhaengig von der verwendeten Schriftgroesse
+
+% --- Paket zur Behebung einiger Inkompatibilitaeten von anderen Paketen mit KOMA-Script
+\usepackage{scrhack}
+
+% --- Paket fuer erweiterte Tabelleneigenschaften
+\usepackage{array}
+
+% --- Paket um Grafiken im Dokument einbetten zu koennen
+% --- In pdfLaTeX sind GIF, PNG und PDF Grafiken moeglich
+\usepackage{graphicx}%	Hauptpaket zur Einbindung von Graphiken	
+
+% --- Paket erweitert deutlich die Verwendung von Farben aus dem Paket 'graphicx'
+\usepackage{color}
+
+% --- Paket um Quellcode sauber zu formatieren
+% --- Alternative Pakete sind 'verbatim', 'moreverb' oder 'fancyvrb'
+\usepackage{listings}
+
+% --- Darstellung von Pseudocode und mehr (algorithmicx packages)
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+% --- Einstellungen des Einzugs
+\usepackage{parskip}%		Einzug aus, Absatzabstand ein
+
+% --- Eigene flexible Gestaltung der Kopf- und Fusszeile moeglich
+\usepackage{fancyhdr}
+
+\usepackage[numbers]{natbib}
+
+% --- Programmiersprachentypische Kontrollstrukturen (logische Verzweigungen und Schleifen)
+\usepackage{ifthen}
+
+% --- zur Erzeugung eines Stichwortverzeichnisses
+%\usepackage{makeidx}
+
+% --- Paket zur Erzeugung von Hypertext-Links aus LaTeX Querverweisen
+\usepackage[%
+	bookmarks,%						Erzeugung von Lesezeichen fuer den Reader
+	raiselinks,%					Korrektur in der Linkausgabe
+	pageanchor,%					PDF-Ankererzeugung auf jeder Seite, um Inhaltsverzeichnis mit Hypertext-Links zu versehen
+%	frenchlinks,%					use small caps instead of color for links
+	colorlinks,%					Verwendung von farbiger Links statt Links mit Rahmen
+% Farben der Linkarten (...color=...)
+	citecolor=black,%			Color for bibliographical citations in text
+	linkcolor=black,%			Color for normal internal links
+	urlcolor=magenta,%		Color for linked URLs					
+	filecolor=cyan,%			Color for URLs which open local files
+	menucolor=red,%				Color for Acrobat menu items
+	pagebackref%					Adds 'backlink' text to the end of each item in the bibliography, as a list of page numbers
+]{hyperref}
+
+% --- Layout-Aenderung leicht moeglich (Erweiterung von dem Paket 'vmargin')
+% --- !!! Bei Verwendung des Paketes 'hyperref' muss die Einbindung von 'geometry' nach 'hyperref' erfolgen !!!
+\usepackage[%
+	left=3cm,right=2.5cm,top=1.5cm,bottom=1.5cm,%		Groesse der Raender
+	headheight=7mm,headsep=1.2cm,
+%									Hoehe der Kopfzeile; Abstand der Grundlinie der Kopfzeile zum Haupttext
+	footskip=1.5cm,includeheadfoot%									Abstand der Grundlinien der letzten Textzeile und der Fusszeile; Kopf- und Fusszeile werden in die Textseite gesetzt
+]{geometry}
+
+% --- to define a own color
+\usepackage{xcolor}
+
+\usepackage{amsmath}
+
+% --- to allow custom headings
+\usepackage{titlesec}
+
+% --- to change titles font family
+\usepackage{titling}
+
+% --- to adjust tableofcontent
+\usepackage{titletoc}
+
+% --- to create colorboxes
+\usepackage{tcolorbox}
+
+% --- Seiten-Layout der Kopf- und Fusszeile
+\usepackage{fancybox}
+
+% --- to insert URLs
+\usepackage{url}
+
+% --- to insert figures in a floating environment
+\usepackage{float}
+
+% --- erlaubt eine Anpassung von Bild- und Tabellenbeschriftungen
+\usepackage[font=small,labelfont=it,textfont=it,labelsep=newline,singlelinecheck=false,justification=raggedleft,labelfont={color=black,bf}]{caption}
+
+% ===========================
+% Style Font
+% ===========================
+
+
+%  define different font sizes
+% ====================
+\newcommand{\sizefront}{\fontsize{45}{45}\selectfont}
+\newcommand{\sizechapter}{\fontsize{25}{25}\selectfont}
+\newcommand{\sizesection}{\fontsize{20}{20}\selectfont}
+\newcommand{\sizesubsection}{\fontsize{15}{15}\selectfont}
+\newcommand{\sizenote}{\fontsize{13}{13}\selectfont}
+
+% Font of Titles
+% ==========
+\titleformat{\chapter}[block]{}{}{0pt}{\huge\sizechapter\textbf}
+\titleformat*{\section}{\sizesection}
+\titleformat*{\subsection}{\sizesubsection}
+\titleformat*{\subsubsection}{\sizenote}
+
+
+% ===========================
+%  Table of Content
+% ===========================
+
+%  define depth
+% ====================
+\setcounter{secnumdepth}{4} 
+\setcounter{tocdepth}{4}
+
+%  define distances and style
+% ====================
+\titlecontents{section}[2.2em]{\addvspace{1pc}\bfseries}{\contentslabel{2.2em}}{}{\titlerule*[0.3pc]{.}\contentspage}
+\titlecontents{subsection}[5.2em]{}{\contentslabel{2.95em}}{}{\titlerule*[0.3pc]{.}\contentspage}
+\titlecontents{subsubsection}[7em]{}{\contentslabel{3em}}{}{\titlerule*[0.3pc]{.}\contentspage}
+
+% ===========================
+%  Margin Label
+% ===========================
+\setlength{\parindent}{0pt}
+\setlength{\oddsidemargin}{1.7cm}
+\setlength{\evensidemargin}{3cm}
+\addtolength{\textwidth}{-1.7cm}
+\setlength{\marginparwidth}{3cm}
+
+
+% ===========================
+%  new Environments
+% ===========================
+
+
+%  figures
+% ====================
+\newenvironment{figureOwn}[2]{
+\marginlabel
+{\captionof{figure}{#1}}
+\raisebox{-\height}{\includegraphics[width=1\textwidth]{#2}}
+\vspace*{0.5cm}
+}
+
+\newenvironment{figurevarSize}[3]{
+\begin{center}\marginlabel{\captionof{figure}{#1}}
+\raisebox{-\height}{\includegraphics[width=#3\textwidth]{#2}}\end{center}
+\vspace*{0.5cm}
+}
+
+% table
+%=======================
+
+\usepackage{marginnote}
+\reversemarginpar
+\let \oldtable = \table
+
+\usepackage{pgfkeys}
+\newcommand{\setvalue}[1]{\pgfkeys{/variables/#1}}
+\newcommand{\getvalue}[1]{\pgfkeysvalueof{/variables/#1}}
+
+\newcommand{\declare}[1]{%
+ \pgfkeys{
+  /variables/#1.is family,
+  /variables/#1.unknown/.style = {\pgfkeyscurrentpath/\pgfkeyscurrentname/.initial = ##1}
+ }%
+}
+
+
+\declare{}
+
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering}p{#1}}
+
+%\newcommand{\tableTitle}[1]{#1}
+
+%\newenvironment{setTitle}[1]{#1}
+
+
+\renewenvironment{table}[1][]{\hspace{0pt} \marginnote{\captionof{table}{\getvalue{tableTitle}}}\@float{table}[#1]}{\end@float}
+
+%  notes
+% ====================
+\newenvironment{note}[1]{
+\begin{tcolorbox}[colback=black!5!white,colframe=black!75!black,title= \sizenote Note]
+\normalfont #1
+\end{tcolorbox}
+}
+
+\newenvironment{noteVartitle}[2]{
+\begin{tcolorbox}[colback=black!5!white,colframe=black!75!black,title= \sizenote #1]
+\normalfont #2
+\end{tcolorbox}
+}
+
+
+% ===========================
+%  new Commands
+% ===========================
+
+%  guielement
+% ====================
+\newcommand{\guielement}[1]{\textit{''#1''}}
+
+
+% =====================================
+% Pagestyle
+% =====================================
+% Vordefinierter Seitenstil
+%\pagestyle{empty}%		Fuss- und Kopfzeile mit Informationenangaben und Seitennummer gemaess der gewaehlten Dokumentenklasse
+
+% Eigene flexible Gestaltung mit dem Paket 'fancyhdr'
+\pagestyle{fancy}%		Flexibler Stil mit dem Paket 'fancyhdr'
+
+% =====================================
+% Header & Footer
+% =====================================
+
+%  adjust Footer & Header
+% ====================
+\renewcommand{\footrule}{\hbox to\headwidth{\color{black}\leaders\hrule height \footrulewidth\hfill}}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{black}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\headrulewidth}{0.0pt}%		Kopflinie
+\renewcommand{\footrulewidth}{0.0pt}%			Fusslinie
+\fancyhf{}%		Loeschen der Vorbelegung
+
+\fancyhead[L]{{\normalfont\small\nouppercase{\leftmark}}}
+\fancyfoot[R]{\normalfont\small\bfseries\thepage}%	Ausgabe der Seitenzahl im Kopf rechts in kleinen, serifenlosen und fetten Schrift
+\fancyfoot[L]{\small\bfseries\normalfont Area segmentation algorithms}%	Ausgabe der Seitenzahl im Kopf rechts in kleinen, serifenlosen und fetten Schrift		
+
+\fancypagestyle{plain}{%		zu Beginn von Kapiteln schaltet LaTeX den Seitenstil der ersten Kapitelseite automatisch auf 'plain'. Dieser Seitenstil kann durch 'fancyhdr' umdefiniert werden mit Hilfe von '\fancypagestyle{plain}{Stildefinition}'
+	\fancyhf{}%		Loeschen der Vorbelegung
+	\fancyfoot[R]{\normalfont\small\sffamily\bfseries\thepage}%	Ausgabe der Seitenzahl im Kopf rechts in kleinen, serifenlosen und fetten Schrift
+	\fancyfoot[L]{\small\sffamily\bfseries \normalfont Area segmentation algorithms}%	Ausgabe der Seitenzahl im Kopf rechts in kleinen, serifenlosen und fetten Schrift	
+	\renewcommand{\headrulewidth}{0.0pt}%		Kopflinie
+	\renewcommand{\footrulewidth}{0.0pt}%			Fusslinie
+}
+
+
+
+
+

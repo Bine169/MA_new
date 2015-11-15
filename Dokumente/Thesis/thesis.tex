@@ -1,0 +1,59 @@
+
+\documentclass[%
+	a4paper,						
+	oneside,							
+	11pt,
+	toc=listof,%					Abbildungs- und Tabellenverzeichnis erhalten einen Eintrag im Inhaltsverzeichnis ohne Nummerierung
+	toc=bibliography,%		Literaturverzeichnis erhaelt einen einen Eintrag im Inhaltsverzeichnis ohne Nummerierung
+	sprache=english,
+	xcolor=dvipsnames
+]{refart}%
+
+\usepackage{styles/abschlussarbeit}
+
+% =============================
+%	Hauptdokument mit Textinhalt
+% =============================
+\begin{document}
+% --- Titelblatt
+\include{chapters/titelseite}
+
+\newpage
+\pagenumbering{arabic}
+\onehalfspacing
+
+\tableofcontents
+%\listoftodos[Notes]
+
+\setcounter{secnumdepth}{0}
+\titlecontents{section}[2.2em]{\addvspace{1pc}\bfseries}{\contentslabel{2.2em}}{}{\titlerule*[0.3pc]{}\contentspage}
+
+\include{chapters/declaration}
+\include{chapters/abstract}
+\include{chapters/acknowledgement}
+
+\titlecontents{section}[2.2em]{\addvspace{1pc}\bfseries}{\contentslabel{2.2em}}{}{\titlerule*[0.3pc]{.}\contentspage}
+\setcounter{secnumdepth}{4} 
+\include{chapters/introduction}
+\include{chapters/relatedWork}
+\include{chapters/ApplicationInGeomarketing}
+\include{chapters/approaches}
+\include{chapters/problems}
+\include{chapters/comparison}
+\include{chapters/applicationToGeomarketing}
+\include{chapters/realworld}
+\include{chapters/evaluation}
+\include{chapters/discussion}
+
+%\begin{appendix}
+%\include{chapters/appendix}
+%\end{appendix}
+
+\nocite{*}
+% legt die zu verwendete BibTeX Stildatei fest; einige Stildateien gehoeren zu Erweiterungspaketen, die ggf. zusaetzlich einzubinden sind
+\bibliographystyle{plainnat}
+% Befehl ist an der Stelle zu verwenden, an der das Literaturverzeichnis gesetzt werden soll
+\bibliography{bib/verzeichnis}
+
+
+\end{document}

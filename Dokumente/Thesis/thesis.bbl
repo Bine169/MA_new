@@ -1,0 +1,120 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Der~Bundeswahlleiter()]{bund}
+Statistisches~Budnesamt Der~Bundeswahlleiter.
+\newblock \newline URL:
+  http://www.bundeswahlleiter.de/de/bundestagswahlen/BTW\_BUND\_13/,\newline
+  last visit: 30th of October 2015.
+
+\bibitem[Frühling and Steingrube(1995)]{fruehling}
+J.~M. Frühling and W.~Steingrube.
+\newblock \emph{Geomarketing: Neue Begriffe = neue Methoden?}
+\newblock Number 39(3-4),pp. 184-194. Zeitschrift für Wirtschaftsgeographie,
+  1995.
+
+\bibitem[Garfinkel and Nemhauser(1970)]{garfinkel}
+R.~S. Garfinkel and G.~L. Nemhauser.
+\newblock \emph{Optimal political districting by implicit enumeration
+  techniques}.
+\newblock Number Vol. 16, No. 8, pp. B495-B508. Institute for Operations
+  Research and the Management Sciences, 1970.
+
+\bibitem[George et~al.(1997)George, Lamar, and Wallace]{george}
+J.~A. George, B.~W. Lamar, and C.~A. Wallace.
+\newblock \emph{Political District Determination Using Large-scale Network
+  Optimization}.
+\newblock Number Vol. 31, No. 1, pp 11-28. Frauenhofer Institut Techno- und
+  Wirtschaftsmathematik ITWM, 1997.
+
+\bibitem[GmbH(2012)]{gfk}
+GfK~Geomarketing GmbH.
+\newblock \emph{Praxiswissen Geomarketing}.
+\newblock GfK Geomarketing GmbH, 2012.
+
+\bibitem[GmbH()]{easymap}
+Lutum+Tappert Dv-Beratung GmbH.
+\newblock \newline URL: http://www.geomarketing.de/,\newline last visit: 03th
+  of November 2015.
+
+\bibitem[Herter and Mühlbauer(2008)]{herter}
+M.~Herter and K.-H. Mühlbauer.
+\newblock \emph{Handbuch Geomarketing}.
+\newblock Herbert Wichmann Verlag, 2008.
+
+\bibitem[Hess and Samuels(1971)]{hessstuart}
+S.~W. Hess and S.~A. Samuels.
+\newblock \emph{Experiences with a sales districting model: criteria and
+  implementation}.
+\newblock Number Vol. 18, No. 4, Part II. Institute for Operations Research and
+  the Management Sciences, 1971.
+
+\bibitem[Hess et~al.(1965)Hess, Weaver, and Samuels]{hess}
+S.~W. Hess, J.~B. Weaver, and S.~A. Samuels.
+\newblock \emph{Nonpartisan Political Redistricting by Computer}.
+\newblock Number Vol. 13, No. 6, pp. 998-1006. Institute for Operations
+  Research and the Management Sciences, 1965.
+
+\bibitem[Kalcsics et~al.(2005)Kalcsics, Nickel, and Schröder]{kalcsics}
+J.~Kalcsics, S.~Nickel, and M.~Schröder.
+\newblock \emph{Towards a Unified Territory Design Approach – Applications,
+  Algorithms and GIS Integration}.
+\newblock Frauenhofer Institut Techno- und Wirtschaftsmathematik, 2005.
+
+\bibitem[Mehrotra et~al.(1998)Mehrotra, Johnson, and Nemhauser]{mehrotra}
+A.~Mehrotra, E.~L. Johnson, and G.~L. Nemhauser.
+\newblock \emph{An optimization based heuristic for political districting}.
+\newblock Number Vol. 44, No. 8, pp. 1100-1114. Institute for Operations
+  Research and the Management Sciences, 1998.
+
+\bibitem[microm Micromarketing-Systeme and GmbH()]{microm}
+microm Micromarketing-Systeme and Consult GmbH.
+\newblock \newline URL: http://www.microm-online.de/,\newline last visit: 03th
+  of November 2015.
+
+\bibitem[microm Micromarketing-Systeme~und Consult~GmbH()]{mapchart}
+microm Micromarketing-Systeme~und Consult~GmbH.
+\newblock \newline URL: http://www.mapchart.de/,\newline last visit: 03th of
+  November 2015.
+
+\bibitem[Müller()]{omkt}
+Dennis Müller.
+\newblock \newline URL: http://www.omkt.de/geomarketing/,\newline last visit:
+  29th of October 2015.
+
+\bibitem[Nitsche(1998)]{nitsche}
+M.~Nitsche.
+\newblock \emph{Micromarketing: Daten-Methoden-Praxis}.
+\newblock Wirtschaftsverlag Ueberreuter, Wien/Frankfurt, 1998.
+
+\bibitem[Nygreen(1988)]{nygreen}
+B.~Nygreen.
+\newblock \emph{European assembly constituencies for wales comparing methods
+  for solving a political distrcting problem}.
+\newblock Number Vol. 42, pp. 159-169. Math. programm, 1988.
+
+\bibitem[Prof. Dr.~S.Nickel(2014)]{kit_lizard}
+KIT Institute for Operations~Research Prof. Dr.~S.Nickel.
+\newblock Lizard - library of optimization algorithms for distrcting.
+\newblock \newline URL: http://dol.ior.kit.edu,\newline last visit: 03th of
+  November 2015, 2014.
+
+\bibitem[Schröder(2001)]{schroeder}
+M.~Schröder.
+\newblock \emph{Gebiete optimal aufteilen: OR-Verfahren für die
+  Gebietsaufteilung als Anwendungsfall gleichmäßiger Baumzerlegung}.
+\newblock 2001.
+\newblock Dissertation, Fakultät für Wirtschaftswissenschaften der
+  Universität Fridericiana zu Karlsruhe.
+
+\bibitem[Zoltners and Sinha(1983)]{zoltner}
+A.~A. Zoltners and P.~Sinha.
+\newblock \emph{Sales territory alignment: a review and model}.
+\newblock Number Vol. 29, No. 11. Institute for Operations Research and the
+  Management Sciences, 1983.
+
+\end{thebibliography}

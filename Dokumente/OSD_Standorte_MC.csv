@@ -1,0 +1,101 @@
+ID;OE;NAME;PLZ;ORT;STRASSE;HA_ID;HA_KOO_W_XDez;HA_KOO_W_YDez;Logo
+1;170;Filiale Dresden Am Altmarkt;1067;Dresden;Dr.-Külz-Ring 17;146120000139300017;13.73895;51.04765;OSD
+2;204;Filiale Dresden Technische Universität;1069;Dresden;Weißbachstraße 2;146120000552000002;13.72913;51.02698;OSD
+3;172;Filiale Dresden Am Goldenen Reiter;1097;Dresden;Hauptstraße 5;146120000228900005;13.74181;51.05919;OSD
+4;184;Filiale Dresden Königsbrücker Straße;1099;Dresden;Königsbrücker Straße 20;146120000305000020;13.74732;51.06637;OSD
+5;208;Filiale Dresden Weixdorf;1108;Dresden;Königsbrücker Landstraße 312;146120000304600312;13.80019;51.14505;OSD
+6;182;Filiale Dresden Klotzsche;1109;Dresden;Karl-Marx-Straße 11;146120000281800011;13.77348;51.11304;OSD
+7;183;Filiale Dresden Klotzsche-Königswald;1109;Dresden;Königsbrücker Landstraße 66b;146120000304000066B;13.78672;51.11554;OSD
+8;179;Filiale Dresden Hellerau;1109;Dresden;Ludwig-Kossuth-Straße 61;146120000350900061;13.74555;51.11621;OSD
+9;191;Filiale Dresden Mälzerei;1127;Dresden;Heidestraße 1-3;146120000234000001;13.72736;51.08172;OSD
+10;175;Filiale Dresden Elbcenter;1127;Dresden;Leipziger Straße 116;146120000325600116;13.71796;51.07713;OSD
+11;209;Filiale Dresden Wilder Mann;1129;Dresden;Dorothea-Erxleben-Straße 1a;146120000138800001A;13.72047;51.09358;OSD
+12;174;Filiale Dresden Cossebaude;1156;Dresden;Dresdner Straße 22 a;146120000140500022A;13.63333;51.08741;OSD
+13;173;Filiale Dresden Briesnitz;1157;Dresden;Gottfried-Keller-Straße 7;146120000201400007;13.67677;51.06195;OSD
+14;189;Filiale Dresden Löbtau;1159;Dresden;Kesselsdorfer Straße 12;146120000288600012;13.70205;51.04386;OSD
+15;177;Filiale Dresden Gorbitz im SACHSEN FORUM;1169;Dresden;Merianplatz 3;146120000369100003;13.66991;51.04513;OSD
+16;194;Filiale Dresden Plauen;1187;Dresden;Nöthnitzer Straße 3-5;146120000391600003;13.70816;51.02912;OSD
+17;203;Filiale Dresden Südvorstadt;1187;Dresden;Nürnberger Straße 28 d/e;146120000392700028D;13.72206;51.03364;OSD
+18;176;Filiale Dresden Gittersee;1189;Dresden;Karlsruher Straße 90;146120000283800090;13.69269;51.01077;OSD
+19;181;Filiale Dresden Kleinpestitz;1189;Dresden;Kohlenstraße 18;146120000302000018;13.72234;51.01944;OSD
+20;211;Filiale Dresden Zschertnitz;1217;Dresden;Räcknitzhöhe 50/52;146120000428400050;13.74229;51.02332;OSD
+21;188;Filiale Dresden Leubnitz-Neuostra;1219;Dresden;Klosterteichplatz 4;146120000300800004;13.76582;51.01226;OSD
+22;201;Filiale Dresden Strehlen;1219;Dresden;Lockwitzer Straße 4;146120000341800004;13.75962;51.02737;OSD
+23;196;Filiale Dresden Reick;1237;Dresden;Keplerstraße 32;146120000287800032;13.78329;51.01449;OSD
+24;195;Filiale Dresden Prohlis;1239;Dresden;Jacob-Winter-Platz 13;146120000268600013;13.79652;51.00601;OSD
+25;190;Filiale Dresden Lockwitz;1257;Dresden;Am Plan 1;146120000038800001;13.80649;50.98725;OSD
+26;187;Filiale Dresden Leuben;1257;Dresden;Pirnaer Landstraße 147;146120000415200147;13.82860;51.01109;OSD
+27;192;Filiale Dresden Niedersedlitz;1257;Dresden;Sosaer Straße 11;146120000489600011;13.82346;50.99978;OSD
+28;210;Filiale Dresden Zschachwitz;1259;Dresden;Bahnhofstraße 73/75;146120000067900073;13.84027;51.00188;OSD
+29;198;Filiale Dresden Seidnitz;1277;Dresden;Bodenbacher Straße 122;146120000094900122;13.80452;51.02569;OSD
+30;202;Filiale Dresden Striesen;1277;Dresden;Lauensteiner Straße 34;146120000322700034;13.80309;51.04070;OSD
+31;178;Filiale Dresden Gruna;1277;Dresden;Zwinglistraße 46;146120000593200046;13.78527;51.03566;OSD
+32;186;Filiale Dresden Laubegast;1279;Dresden;Oesterreicher Straße 32;146120000401300032;13.83601;51.02646;OSD
+33;180;Filiale Dresden Johannstadt;1307;Dresden;Fetscherstraße 32/34;146120000162000032;13.77265;51.04723;OSD
+34;199;Filiale Dresden Sparkassenhaus;1307;Dresden;Güntzplatz 5;146120000214600005;13.75886;51.05403;OSD
+35;205;Filiale Dresden Universitätsklinikum;1307;Dresden;Mildred-Scheel-Straße 4;146120000372300004;13.78428;51.05415;OSD
+36;171;Filiale Dresden Am Blauen Wunder;1309;Dresden;Schillerplatz 12;146120000468400012;13.80753;51.05195;OSD
+37;206;Filiale Dresden Weißer Hirsch;1324;Dresden;Bautzner Landstraße 6;146120000072900006;13.82180;51.06356;OSD
+38;193;Filiale Dresden Pillnitz;1326;Dresden;Am Rathaus 1;146120000039900001;13.87335;51.01287;OSD
+39;207;Filiale Dresden Weißig;1328;Dresden;Am Weißiger Bach 1;146120000047200001;13.88518;51.06237;OSD
+40;197;Filiale Dresden Schönfeld;1328;Dresden;Markt 3;146120000359300003;13.89440;51.03328;OSD
+41;285;Filiale Radeberg Hauptstraße;1454;Radeberg;Hauptstraße 19;146254800011800019;13.92143;51.11635;OSD
+42;286;Filiale Radeberg Heidestraße;1454;Radeberg;Heidestraße 68;146254800012400068;13.90493;51.10882;OSD
+43;282;Filiale Ottendorf-Okrilla;1458;Ottendorf-Okrilla;Poststraße 1;146254300015100001;13.82982;51.18561;OSD
+44;185;Filiale Dresden Langebrück;1465;Dresden;Bruhmstraße 4 a;146120000107800004A;13.84015;51.12566;OSD
+45;270;Filiale Arnsdorf;1477;Arnsdorf;Teichstraße 9;146250100010000009;13.98467;51.09359;OSD
+46;230;Filiale Freital Weißeritz-Park;1705;Freital;An der Spinnerei 8;146281100007500008;13.62271;50.97697;OSD
+47;227;Filiale Freital Pesterwitz;1705;Freital;Dresdner Straße 1;146281100016000001;13.65625;51.02701;OSD
+48;228;Filiale Freital Potschappel;1705;Freital;Dresdner Straße 107;146281100016500107;13.65913;51.00867;OSD
+49;229;Filiale Freital Zauckerode;1705;Freital;Glück-Auf-Straße 3a;146281100021100003A;13.63674;51.01500;OSD
+50;259;Filiale Wilsdruff;1723;Wilsdruff;Freiberger Straße 1a;146284100007800001A;13.53755;51.05075;OSD
+51;240;Filiale Kesselsdorf;1723;Kesselsdorf;Steinbacher Weg 9;146284100020200009;13.59909;51.03354;OSD
+52;223;Filiale Bannewitz;1728;Bannewitz;Bräunlinger Straße 2;146280500002900002;13.71940;50.99573;OSD
+53;252;Filiale Possendorf;1728;Possendorf;Kastanienallee 1a;146280500008700001A;13.71029;50.96866;OSD
+54;242;Filiale Kreischa;1731;Kreischa;Am Mühlgraben 5;146282200000800005;13.75819;50.94488;OSD
+55;253;Filiale Rabenau;1734;Rabenau;Markt 4;146283000004300004;13.64204;50.96289;OSD
+56;258;Filiale Tharandt;1737;Tharandt;Roßmäßlerstraße 20;146284000007800020;13.58028;50.98553;OSD
+57;225;Filiale Dippoldiswalde;1744;Dippoldiswalde;Markt 27;146280600015200027;13.66752;50.89729;OSD
+58;254;Filiale Schmiedeberg;1762;Schmiedeberg;Altenberger Straße 14;146283500000300014;13.67510;50.83855;OSD
+59;232;Filiale Glashütte;1768;Glashütte;Markt 1;146281300007600001;13.77745;50.85246;OSD
+60;220;Filiale Altenberg;1773;Altenberg;Rathausstraße 19;146280100014400019;13.75858;50.76499;OSD
+61;241;Filiale Klingenberg;1774;Klingenberg;Am Bahnhof 14b;146282050003600014B;13.58426;50.94976;OSD
+62;239;Filiale Höckendorf;1774;Klingenberg;Tharandter Straße 2;146282050003100002;13.58868;50.92638;OSD
+63;237;Filiale Hermsdorf;1776;Hermsdorf;Kirchplatz 2;146281700001900002;13.62989;50.76049;OSD
+64;231;Filiale Geising;1778;Altenberg;Altmarkt 4;146280100019800004;13.79267;50.75727;OSD
+65;244;Filiale Lauenstein;1778;Altenberg;Bahnhofstraße 4;146280100020400004;13.82159;50.78268;OSD
+66;249;Filiale Pirna Gartenstraße;1796;Pirna;Gartenstraße 40;146282700014000040;13.93757;50.96205;OSD
+67;248;Filiale Pirna Copitz;1796;Pirna;Hauptstraße 20;146282700016400020;13.93484;50.97042;OSD
+68;257;Filiale Struppen;1796;Struppen;Hauptstraße 48;146283900001400048;14.00841;50.93559;OSD
+69;250;Filiale Pirna Sonnenstein;1796;Pirna;Herbert-Liebsch-Straße 3b;146282700017000003B;13.95783;50.95675;OSD
+70;251;Filiale Pirna Südvorstadt;1796;Pirna;Robert-Schumann-Platz 12;146282700031600012;13.95124;50.93442;OSD
+71;233;Filiale Graupa;1796;Pirna;Tschaikowskiplatz 9;146282700038400009;13.92114;50.99955;OSD
+72;236;Filiale Heidenau West;1809;Heidenau;Böhmischer Weg 6;146281600002500006;13.86552;50.96875;OSD
+73;235;Filiale Heidenau real.-;1809;Heidenau;Hauptstraße 3;146281600008900003;13.85601;50.97763;OSD
+74;234;Filiale Heidenau Nord;1809;Heidenau;Siegfried-Rädel-Straße 6;146281600020100006;13.86025;50.98227;OSD
+75;222;Filiale Bad Schandau;1814;Bad Schandau;Dresdner Straße 1a;146280300001400001A;14.15016;50.91840;OSD
+76;221;Filiale Bad Gottleuba;1816;Bad Gottleuba;Hauptstraße 11;146280200006400011;13.94208;50.85021;OSD
+77;224;Filiale Berggießhübel;1819;Berggießhübel;Sebastian-Kneipp-Platz 4;146280200010700004;13.94873;50.87431;OSD
+78;243;Filiale Königstein;1824;Königstein;Bielatalstraße 4;146282100001000004;14.07330;50.91762;OSD
+79;245;Filiale Liebstadt;1825;Liebstadt;Bachstraße 4;146282300000400004;13.85641;50.86276;OSD
+80;256;Filiale Stolpen;1833;Stolpen;Alte Schulstraße 2;146283800000400002;14.08235;51.04889;OSD
+81;226;Filiale Dürrröhrsdorf;1833;Dürrröhrsdorf-Dittersbach;Hauptstraße 96;146281000004800096;13.99325;51.03552;OSD
+82;247;Filiale Neustadt;1844;Neustadt i. Sa.;Bahnhofstraße 1 / Markt 22;146282600004200001;14.21471;51.02510;OSD
+83;246;Filiale Lohmen;1847;Lohmen;Basteistraße 19a;146282400002100019A;14.00302;50.98843;OSD
+84;238;Filiale Hohnstein;1848;Hohnstein;Markt 6;146281900005200006;14.11003;50.97996;OSD
+85;255;Filiale Sebnitz;1855;Sebnitz;Schandauer Straße 4;146283600016400004;14.27232;50.97293;OSD
+86;284;Filiale Pulsnitz;1896;Pulsnitz;Am Markt 13;146254500000700013;14.01317;51.18162;OSD
+87;272;Filiale Großröhrsdorf;1900;Großröhrsdorf;Mühlstraße 1;146252000008800001;14.02322;51.14590;OSD
+88;278;Filiale Kamenz Markt;1917;Kamenz;Markt 4;146252500021100004;14.09539;51.26955;OSD
+89;277;Filiale Kamenz Arkadenhof;1917;Kamenz;Oststraße 14;146252500023000014;14.09686;51.27525;OSD
+90;283;Filiale Panschwitz-Kuckau;1920;Panschwitz-Kuckau;Cisinskistraße 31;146254400001700031;14.19916;51.23385;OSD
+91;279;Filiale Königsbrück;1936;Königsbrück;Markt 13;146252700007300013;13.90329;51.26354;OSD
+92;287;Filiale Schwepnitz;1936;Schwepnitz;Schulstraße 2;146255500005700002;13.95745;51.33085;OSD
+93;275;Filiale Hoyerswerda Lausitzhalle;2977;Hoyerswerda;Lausitzer Platz 4;146252400028400004;14.26209;51.43844;OSD
+94;276;Filiale Hoyerswerda Lipezker Platz;2977;Hoyerswerda;Lipezker Platz 6;146252400029400006;14.27178;51.44358;OSD
+95;274;Filiale Hoyerswerda Kühnichter Heide;2977;Hoyerswerda;Liselotte-Herrmann-Straße 90;146252400030300090;14.26872;51.44824;OSD
+96;273;Filiale Hoyerswerda Altstadt;2977;Hoyerswerda;Schlossplatz 2;146252400037800002;14.24608;51.43865;OSD
+97;280;Filiale Lauta;2991;Lauta;Mittelstraße 18;146253100011100018;14.09632;51.45838;OSD
+98;271;Filiale Bernsdorf;2994;Bernsdorf;Ernst-Thälmann-Straße 45;146250300006300045;14.06744;51.37114;OSD
+99;288;Filiale Wittichenau;2997;Wittichenau;Markt 18;146256400005500018;14.24431;51.38476;OSD
+100;281;Filiale Lohsa;2999;Lohsa;Ziegelteich 28;146253300011400028;14.40610;51.38591;OSD

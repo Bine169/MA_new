@@ -1,0 +1,81 @@
+\section{Fundamentals of area segmentation}
+
+Already for several decades people had been doing researches in the field of area segmentation approaches. The first important model for area alignment was implemented by Hess et al. in 1965 whose solving a center-seeking political distrciting problem\cite{hess}. Since then a lot of additional researches are done to acquire a lot of more possible approaches and to improve existing ones. The origin which created the need for area segmentation deal especially with marketing aspects or with political distriction. Per example demographic countries need to create constituencies for every election that will be done. Therefore the state or federal state needs to be divided into smaller sub parts. Consequently an area segmentation approach is necessary. Besides that example area design approaches are often used for sales districting. Within these two special fields different researches exists. But it is recognizable that just a few approaches exist dealing with other aspects from the field of Geomarketing. Nevertheless with reference to these examples it can be deduced that area segmentation is a grouping of small geographic units into larger cluster in such a way that the latter are acceptable according to one ore more relevant planning criteria \cite{kalcsics, zoltner}. The smaller geographic areas are often called basic areas, the clustered units are mentioned as territories. Dependent on the context the relevant planning criteria may change. Per example if an economical context is used the planning criteria may be the number of costumers or the workload. In case of a demographic origin as it is necessary during elections the planning criteria may be the number of inhabitants or the voting population. During the distriction several restrictions like compactness or contiguity needs to be satisfied. Such conditions will be explained in section 3.2 in more detail. Often a centre point is set into the units in the end if no one is given in the beginning.\\
+Considering the researches which were done during the last decades it is recognizable that the most of the acquired approaches are optimization models. Three types of models can be identified: location-allocation approaches, set-partitioning approaches and heuristic methods. The location-allocation technic uses two steps to achieve a territory alignment. Therefore no centre points are given in the beginning which should be used for the creation of the clustered territories. Consequently in first step the centres of the territories need to be chosen. This stage is called location phase. Within the second step, the allocation phase, the small geographic units, called basic areas, are assigned to these centres. Both steps are iteratively performed until a satisfactory result is obtained \cite{kalcsics}. During the location-allocation stages it is tried to balance a relevant planning criteria. In some case no centres need to be determined, if there already exist ones. Per example this is the case if a sales districting should be done where already salesman exist whose homes should be the centres of the territories. In such a case just the allocation phase needs to be done. The location-allocation approach was used by \citeauthor{hessstuart}\cite{hessstuart}, \citeauthor{zoltner}\cite{zoltner},\citeauthor{george}\cite{george} and \citeauthor{schroeder}\cite{schroeder} per example.\\
+Second there exist so called set-partitioning approaches. These methods is based on the process to generate cantons as a subdivision of all geographical units. These cantons are considered as aspirants to achieve a satisfying area segmentation. After this step is done a partition of the overall content should be done using such cantons to get a well balanced result \cite{schroeder}. Consequently two steps are necessary again as it was also done in the location-allocation approach. Both steps are performed consecutively or simultaneously as it was done in \citeauthor{garfinkel}\cite{garfinkel}, \citeauthor{nygreen}\cite{nygreen} and \citeauthor{mehrotra}\cite{mehrotra} per example. \\
+As a third type of optimization models heuristic approaches exist. Contrary to the other two model types this one considers no processes of mathematical programming during the alignment. Some of these approaches will be explained in more detail in section \ref{Overview about existing approaches} \hyperref[Overview about existing approaches]{Overview about existing approaches}.
+
+
+\subsection{Notions and criterias}
+Every area segmentation process is subject of several parameters that should be considered. In the case of political restriction one parameter may be a balanced distribution of the population in every created area. Besides a balanced criteria there exist a lot of more parameters and conditions which can be borne in mind. In the following section the most typically parameters will be explained in more detail. However at first some important notions are mentioned which are correlated with every territory alignment approach.
+
+\subsubsection{Basic areas}
+Every area segmentation problem consist of a set V of areas to which the alignment should be done. These areas are geographical objects in the plane consequently it my be points (e.g. addresses of costumers), lines (e.g. street-sections) or polygons (e.g. districts). These areas are called basic areas. Let $ B $ denotes a basic area then:
+
+\[ \mathit{B_{1} \cup B_{2} \cup ... \cup B_{n}=V} \]
+
+In the case of that master thesis all implementations will be done to zip-code areas which will be represented by polygons. Further information can be found in section \ref{Implementation} \hyperref[Implementation]{Implementation of area segmentation approaches}. Every basic area is linked with one or more quantifiable attributes which should be considered during the distriction. That attributes may be the number of households, the workload or the purchasing power.
+
+\begin{figureOwn}{Zip-code areas as basic areas using in an area segmentation process}{images/basicAreas.jpg}\end{figureOwn}
+
+\subsubsection{Number of territories}
+The number of territories defines how much higher ranking areas will be created using the basic areas. The number of territories will be given by the user in case of that master thesis. Some approaches like it was done in \citeauthor{kalcsics} \cite{kalcsics} the number of territories was handled as a planning parameter. Let $ B $ denotes the basic areas again and $ T $ denotes a territory then:
+
+\[ \mathit{B_{1} \cup  ... \cup B_{n}=T_{1} \text{ and } B_{n+1} \cup ... \cup B_{m}=T_{2} \text{ etc.}}\]
+\[ \mathit{T_{1} \cup  T_{2} \cup ... \cup T_{n}=V}\]
+
+\subsubsection{Territory centers}
+Usually a created territory is associated with a territory centre. If the area segmentation was done without centres which had exist already pre the 
+calculation the centres are often located afterwards into the geographical centre of the territory. In other cases already centres exists. These will be the origin from that the alignment will start. Let $ T $ denotes the territories again and $ Z $ denotes a territory centre then
+
+\[ \mathit{Z_{1} \in T_{1} \text{ and } Z_{2} \in T_{2} \text{ and } ... \text{ and } Z_{n} \in T_{n}}\]
+
+\subsubsection{Unique assignment of basic areas}
+A determined condition during the application of an area segmentation is the unique assignment of basic areas. This means that every basic areas is exactly allocated to one territory centre. Consequently no basic area exists which is not assigned to any territory centre. At the same time no territory centre exists which shares one basic area with another territory centre. Let $ B $ denotes a basic area and $ T $ denotes a territory consisting of several basic areas then:
+
+\[ \mathit{B_{1} \cup B_{2} \cup ... \cup B_{n}=V \text{ and } T_{i} \cap T_{j}  =\emptyset, i \neq j}\]
+
+
+\subsubsection{Planning criterias}
+Area segmentation processes are done to group small geographical units into larger clusters. Thereby often at least one planning criteria will be considered during the alignment. The planning criteria depends off the context for which the territory distriction will be done, consequently there exist several different criteria. The most common will be explained in that section.
+
+\subsection{Use cases}
+
+\subsubsection{Sales Districting}
+
+siehe gebietoptimalaufteilen pdf seite 29
+
+As each territory elects a single member to a parliamentary assembly, the main
+planning criteria is to have approximately the same number of voters in each territory, i.e.
+territories of similar size, in order to respect the principle of ”one man–one vote”. bericht71.pdf
+
+If unequal territories exist and if it is generaUy known by the salesmen
+that work load or territory potential is disproportionate, this can lead to low morale,
+poor performance, a high turnover rate, and an inability to assess the productivity of
+individual territories or districts. By rea%ning territories to make them more equitable
+with respect to work load or sales potential, a more optimal utilization of each individual
+salesman can be achieved.
+hessandstuart.pdf
+
+\subsubsection{Political Districting}
+The legislative
+districting problem—the "one man-one vote" problem—is to subdivide a state into a
+specific number of compact and contiguous districts of nearly equal population 
+Quelle:hess and stuart
+
+
+There are three essential characteristics of districts:
+the districts should have nearly equal populations to
+adhere to the one-person, one-vote principle; the districts
+should be contiguous; and the districts should be
+geographically compact. We
+quelle: mehrotra
+
+Within determined time intervals elections are done within a country to vote for persons who wants to be the representatives of a country, federal state etc. Therefore the area have to be divides into sub parts, so called constituencies. Every constituencies nominees one candidate who will be elected directly into the parliament.  A democratic elections is based one the same weight of every voting that is why some restrictions have to be followed during the political distraction. In Germany these conditions are set down into the Federal Electoral Law §3 Art. 1. It determines that the creation of constituencies should be done in this way that the number of constituencies within the federal state should be agree with the part of the population \cite{bund}. This means that every constituency should hold a similar number of voters compared to other constituencies. The number of inhabitants of Germany is used as stipulation to satisfied that condition. During the distraction the boundaries of townships, districts and cities should be preserved as much as possible. Before an election can be carried out the constituencies has do be proofed and adapted if it is necessary because local alteration of the population can be recognized over the time. A commission will do this in front of every voting. The figure below shows the political distraction in 2013 fr the parliamentary elections.
+
+
+\begin{figurevarSize}{Politicial Districtings in Germany for parliamentary elections in 2013 \cite{bund}}{images/wahlkreise.jpg}{0.7}\end{figurevarSize}
+
+
+\subsubsection{Greenfieldanalysis}
+\subsubsection{Whitespotanalysis}
